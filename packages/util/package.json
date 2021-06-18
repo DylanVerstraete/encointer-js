@@ -1,9 +1,9 @@
 {
-  "name": "@encointer/util",
+  "name": "tfgrid-fixed-utils",
   "version": "0.1.4",
   "description": "Encointer JS utilities",
   "author": "Encointer authors & contributors",
-  "homepage": "https://github.com/encointer/encointer-js",
+  "homepage": "https://github.com/DylanVerstraete/encointer-js",
   "license": "MIT",
   "main": "index.js",
   "types": "./index.d.ts",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/encointer/encointer-js.git"
+    "url": "git+https://github.com/DylanVerstraete/encointer-js.git"
   },
   "bugs": {
-    "url": "https://github.com/encointer/encointer-js/issues"
+    "url": "https://github.com/DylanVerstraete/encointer-js/issues"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.5",

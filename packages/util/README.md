@@ -1,11 +1,11 @@
-# @encointer/util
+# tfgrid-fixed-utils
 
 Utilities for [Encointer](https://encointer.org/) App and Explorer. Contains methods to work with [substrate](https://github.com/paritytech/substrate)-based Encointer node.
 
 ## Installation
 
 ```
-yarn add @encointer/util
+yarn add tfgrid-fixed-utils
 ```
 
 ## Fixed-point numbers
@@ -18,7 +18,7 @@ To decode number with 64 bits of decimal part and 64 bits of fractional part use
 To encode number as fixed point with 4 bits for decimal and fractional use functions `toI16F16` (returns fixed-point as [BigNum](https://github.com/indutny/bn.js/)) and `encodeFloatToI4F4` (returns Uint8Array).
 
 ```js
-import { parseI32F32, toI16F16 } from '@encointer/util'
+import { parseI32F32, toI16F16 } from 'tfgrid-fixed-utils'
 import BN from 'bn.js'
 
 /// Got fixed-point encoded number
